@@ -36,10 +36,28 @@ package genericite;
 // Contraintes
 //----------------------------
 
+//public class Main {
+//    public static void main(String[] args) {
+//       new GenericList<BankAccount>();
+//    }
+//}
+
+
+//-----------------------------
+// interface Comparable
+//----------------------------
 public class Main {
     public static void main(String[] args) {
-       
+       BankAccount bankAccount1 = new BankAccount(15);
+       BankAccount bankAccount2 = new BankAccount(30);
+
+        if (bankAccount1.compareTo(bankAccount2) < 0) {
+            System.out.println("bankAccount1 has less balance than bankAccount2");
+        } else if (bankAccount1.compareTo(bankAccount2) > 0) {
+            System.out.println("bankAccount1 has more balance than bankAccount2");
+        } else {
+            System.out.println("bankAccount1 and bankAccount2 have the same balance");
+        }
     }
 }
-
 
