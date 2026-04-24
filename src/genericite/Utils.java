@@ -12,6 +12,21 @@ package genericite;
 //-----------------------------
 // paramètre à type multiples
 //----------------------------
+//public class Utils {
+//    public static <T extends Comparable<T>> T min(T first, T second){
+//        return (first.compareTo(second) < 0) ? first : second;
+//    }
+//
+//    // methode avec deux paramètres à type différents
+//    public static <K, V> void printKeyValue(K key, V value){
+//        System.out.println("key: " + key + ", value: " + value);
+//    }
+//}
+
+//-----------------------------
+// paramètre à type multiples
+//----------------------------
+
 public class Utils {
     public static <T extends Comparable<T>> T min(T first, T second){
         return (first.compareTo(second) < 0) ? first : second;
@@ -21,7 +36,10 @@ public class Utils {
     public static <K, V> void printKeyValue(K key, V value){
         System.out.println("key: " + key + ", value: " + value);
     }
-}
 
+    public static void printBankAccount(GenericList<? super BankAccount> bankAccount){
+        System.out.println(bankAccount);
+    }
+}
 
 

@@ -74,8 +74,18 @@ package genericite;
 //-----------------------------
 // paramètre à type multiples
 //----------------------------
+//public class Main {
+//    public static void main(String[] args) {
+//        Utils.printKeyValue("number", 8);
+//    }
+//}
+
+//-----------------------------
+// classes générique et heritage
+//----------------------------
 public class Main {
     public static void main(String[] args) {
-        Utils.printKeyValue("number", 8);
+        Utils.printBankAccount(new GenericList<BankAccount>());
+//        Utils.printBankAccount(new GenericList<SavingsAccount>());
     }
 }
