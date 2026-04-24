@@ -64,9 +64,18 @@ package genericite;
 //-----------------------------
 // Methode générique
 //----------------------------
+//public class Main {
+//    public static void main(String[] args) {
+//        System.out.println(Utils.min(8, 9));
+//        System.out.println(Utils.min(new BankAccount(18), new BankAccount(20)));
+//    }
+//}
+
+//-----------------------------
+// paramètre à type multiples
+//----------------------------
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Utils.min(8, 9));
-        System.out.println(Utils.min(new BankAccount(18), new BankAccount(20)));
+        Utils.printKeyValue("number", 8);
     }
 }
