@@ -5,9 +5,11 @@ import java.io.IOException;
 public class BankAcount {
     private double balance;
 
-    public void desposit (double amount) throws InvalidAmoutException {
-        if (amount <= 0)
-            throw new InvalidAmoutException();
+    public void deposit (double amount) throws BankAccountException {
+        if (amount <= 0){
+            throw new BankAccountException(new InvalidAmoutException());
+        }
         balance += amount;
+
     }
 }

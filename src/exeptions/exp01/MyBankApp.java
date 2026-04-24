@@ -6,10 +6,9 @@ public class MyBankApp {
     public static void start()  {
         BankAcount bankAcount = new BankAcount();
         try {
-            bankAcount.desposit(-100);
-        } catch (InvalidAmoutException e) {
-            System.out.println("Logging");
-                e.printStackTrace();
+            bankAcount.deposit(-100);
+        } catch (BankAccountException e) {
+            System.out.println(e.getCause().getMessage());
         }
     }
 }
