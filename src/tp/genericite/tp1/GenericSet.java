@@ -1,4 +1,4 @@
-package tp.genericite;
+package tp.genericite.tp1;
 
 import java.util.Arrays;
 import java.util.Objects;

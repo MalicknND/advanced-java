@@ -1,4 +1,4 @@
-package tp.genericite;
+package tp.genericite.tp1;
 
 public interface IGenericSet<T> {
     void add(T item);
