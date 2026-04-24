@@ -1,4 +1,4 @@
-package tp.tp2;
+package tp.exceptions.tp2;
 
 import java.util.Scanner;
 

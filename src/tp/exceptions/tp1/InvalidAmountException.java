@@ -1,4 +1,4 @@
-package tp.exceptions;
+package tp.exceptions.tp1;
 
 // Exception : montant invalide
 public class InvalidAmountException extends Exception {

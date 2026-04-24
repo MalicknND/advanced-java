@@ -1,4 +1,4 @@
-package tp.exceptions;
+package tp.exceptions.tp1;
 
 import java.io.FileWriter;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package tp.exceptions;
+package tp.exceptions.tp1;
 
 public class MyAccount {
 

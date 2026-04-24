@@ -1,6 +1,4 @@
-package tp.exceptions;
-
-import exeptions.exp01.BankAcount;
+package tp.exceptions.tp1;
 
 public class Main {
     public static void main(String[] args) {
