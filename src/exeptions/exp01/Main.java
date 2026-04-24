@@ -143,12 +143,23 @@ import java.text.SimpleDateFormat;
 // Lancement d'une exception
 //-----------------------------
 
+//public class Main {
+//    public static void main(String[] args) {
+//        try {
+//            MyBankApp.start();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
+//}
+
+
+//-----------------------------
+// Creation d'exceptions
+//-----------------------------
+
 public class Main {
     public static void main(String[] args) {
-        try {
             MyBankApp.start();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 }

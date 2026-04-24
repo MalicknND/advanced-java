@@ -3,13 +3,13 @@ package exeptions.exp01;
 import java.io.IOException;
 
 public class MyBankApp {
-    public static void start() throws IOException {
+    public static void start()  {
         BankAcount bankAcount = new BankAcount();
         try {
             bankAcount.desposit(-100);
-        } catch (IOException e) {
+        } catch (InvalidAmoutException e) {
             System.out.println("Logging");
-            throw e;
+                e.printStackTrace();
         }
     }
 }
