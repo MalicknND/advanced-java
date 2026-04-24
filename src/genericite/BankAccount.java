@@ -16,4 +16,11 @@ public class BankAccount implements Comparable<BankAccount> {
         return (int) (balance - bankAccount.balance);
 
     }
+
+    @Override
+    public String toString() {
+        return "BankAccount{" +
+                "balance=" + balance +
+                '}';
+    }
 }
